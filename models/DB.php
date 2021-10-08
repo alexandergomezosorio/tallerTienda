@@ -1,11 +1,12 @@
 <?php
 
 class DB{
+    //atributos=variables=datos
 
     public $usuario = "root";
-    public $passworld = "";
+    public $passwordDB = "";
     public $servidorDB = "mysgl:host = localhost;";
-    public $nombreDB = "dbname = //nombre de la base de datos";
+    public $nombreDB = "dbname = tiendabello";
 
     //constructor
 
@@ -19,7 +20,8 @@ class DB{
         try {
 
             $datosGeneralesBD = $this-> servidorDB.$this->nombreDB;
-            $conexion = new PDO( $datosGeneralesBD );
+            $conexion = new PDO( $datosGeneralesBD,$this->usuario,$this->passwordDB );
+            echo("exito de conexion ala DB");
 
 
         } catch (PDOException  $error) {

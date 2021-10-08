@@ -30,11 +30,11 @@
                     <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
                 </form>
 
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
                     Sign up
                 </button>
             </div>
-
+                <!--formulario usuarios---->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -117,7 +117,7 @@
         </div>
     </div>
     <main>
-        <div class="container p-1">
+        <div class="container mt-5">
             <div class="row d-flex justify-content-center">
                 <div class="col-md-4" id="cards">
                     <div class="card h-100">
