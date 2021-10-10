@@ -30,11 +30,11 @@
                     <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
                 </form>
 
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     Sign up
                 </button>
             </div>
-                <!--formulario usuarios---->
+            <!--formulario usuarios---->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
@@ -46,23 +46,23 @@
                             <form action="" method="post">
                                 <div class="mb-3">
                                     <label for="formGroupExampleInput" class="form-label">First name</label>
-                                    <input type="text" class="form-control" id="formGroupExampleInput">
+                                    <input type="text" class="form-control" id="formGroupExampleInput" name="first name">
                                 </div>
-                                <div class="mb-3">
+                                <div class=" mb-3">
                                     <label for="formGroupExampleInput" class="form-label">Last name</label>
-                                    <input type="text" class="form-control" id="formGroupExampleInput">
+                                    <input type="text" class="form-control" id="formGroupExampleInput" name="last name">
                                 </div>
                                 <div class="mb-3">
                                     <label for="formGroupExampleInput" class="form-label">Email</label>
-                                    <input type="email" class="form-control" id="formGroupExampleInput">
+                                    <input type="email" class="form-control" id="formGroupExampleInput" name="email">
                                 </div>
                                 <div class="mb-3">
                                     <label for="formGroupExampleInput" class="form-label">Age</label>
-                                    <input type="text" class="form-control" id="formGroupExampleInput">
+                                    <input type="text" class="form-control" id="formGroupExampleInput" name="age">
                                 </div>
                                 <div class="mb-3">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" name="comments" style="height: 100px"></textarea>
                                         <label for="floatingTextarea2">Comments</label>
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Understood</button>
+                            <button type="button" class="btn btn-primary" name="understood">Understood</button>
                         </div>
                     </div>
                 </div>

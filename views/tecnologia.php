@@ -19,7 +19,7 @@
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <h1 class="text-white">THE STORE<i class="fas fa-shopping-cart"></i></h1>
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 link-dark text-white">Home</a></li>
+                    <li><a href="../index.php" class="nav-link px-2 link-dark text-white">Home</a></li>
                     <li><a href="#" class="nav-link px-2 link-dark text-white">About us</a></li>
                     <li><a href="#" class="nav-link px-2 link-dark text-white">Offers of the day</a></li>
                     <li><a href="#" class="nav-link px-2 link-dark text-white">Customer service</a></li>
@@ -117,67 +117,58 @@
         </div>
     </div>
     <main>
-        <div class="container p-1">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-3" id="cards">
-                    <div class="card h-100">
+        <div class="container mt-5">
+            <div class="row d-fex justify-content-center">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../public/img/almuadas.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title ">Laptop lenovo legion</h5>
-                            <a href=""><img src="../public/img/laptop1.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                            <h6>U$S 1.449</h6>
+                            <h5 class="card-title">Almuadas</h5>
+                            <p>$150.000</p>
+                            <p class="card-text">Este producto es importado</p>
+                            <a href="#" class="btn btn-light"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="btn btn-light"><i class="far fa-heart"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3" id="cards">
-                    <div class="card h-100">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../public/img/covijas.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title ">Xiaomi Mi 10T Pro</h5>
-                            <a href=""><img src="../public/img/celular2.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                            <h6>U$S 614</h6>
+                            <h5 class="card-title">Covijas</h5>
+                            <p>$148.000</p>
+                            <p class="card-text">Este producto es importado</p>
+                            <a href="#" class="btn btn-light"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="btn btn-light"><i class="far fa-heart"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3" id="cards">
-                    <div class="card h-100">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../public/img/covijas.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title ">TV samsung uhd</h5>
-                            <a href=""><img src="../public/img/tv1.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                            <h6>U$S 589</h6>
+                            <h5 class="card-title">Covijas</h5>
+                            <p>$148.000</p>
+                            <p class="card-text">Este producto es importado</p>
+                            <a href="#" class="btn btn-light"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="btn btn-light"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../public/img/covijas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Covijas</h5>
+                            <p>$148.000</p>
+                            <p class="card-text">Este producto es importado</p>
+                            <a href="#" class="btn btn-light"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="btn btn-light"><i class="far fa-heart"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container p-1">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-3" id="cards">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title ">Keyboard and mause</h5>
-                                <a href=""><img src="../public/img/teclado2.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                                <h6>U$S 33</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3" id="cards">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title ">Smart speaker</h5>
-                                <a href=""><img src="../public/img/altavoz1.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                                <h6>U$S 54.74</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3" id="cards">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title ">HDMI cable</h5>
-                                <a href=""><img src="../public/img/hdmi2.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                                <h6>U$S 29.89</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
     </main>
 
 

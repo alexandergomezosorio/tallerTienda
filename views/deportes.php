@@ -117,67 +117,58 @@
         </div>
     </div>
     <main>
-        <div class="container p-1">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-3" id="cards">
-                    <div class="card h-100">
+        <div class="container mt-5">
+            <div class="row d-fex justify-content-center">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../public/img/almuadas.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title ">Dumbbells</h5>
-                            <a href=""><img src="../public/img/mancuernas3.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                            <h6>U$S 52</h6>
+                            <h5 class="card-title">Almuadas</h5>
+                            <p>$150.000</p>
+                            <p class="card-text">Este producto es importado</p>
+                            <a href="#" class="btn btn-light"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="btn btn-light"><i class="far fa-heart"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3" id="cards">
-                    <div class="card h-100">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../public/img/covijas.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title ">Stationary bicycle</h5>
-                            <a href=""><img src="../public/img/bicicleta1.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                            <h6>U$S 389</h6>
+                            <h5 class="card-title">Covijas</h5>
+                            <p>$148.000</p>
+                            <p class="card-text">Este producto es importado</p>
+                            <a href="#" class="btn btn-light"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="btn btn-light"><i class="far fa-heart"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3" id="cards">
-                    <div class="card h-100">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../public/img/covijas.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title ">Electric treadmill</h5>
-                            <a href=""><img src="../public/img/caminadora2.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                            <h6>U$S 490</h6>
+                            <h5 class="card-title">Covijas</h5>
+                            <p>$148.000</p>
+                            <p class="card-text">Este producto es importado</p>
+                            <a href="#" class="btn btn-light"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="btn btn-light"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../public/img/covijas.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Covijas</h5>
+                            <p>$148.000</p>
+                            <p class="card-text">Este producto es importado</p>
+                            <a href="#" class="btn btn-light"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="#" class="btn btn-light"><i class="far fa-heart"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container p-1">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-3" id="cards">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title ">Elastic bands</h5>
-                                <a href=""><img src="../public/img/bandas2.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                                <h6>U$S 12.45</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3" id="cards">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title ">Exercise mat</h5>
-                                <a href=""><img src="../public/img/colochoneta2.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                                <h6>U$S 23.90</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3" id="cards">
-                        <div class="card h-100">
-                            <div class="card-body">
-                                <h5 class="card-title ">Abdominal wheel</h5>
-                                <a href=""><img src="../public/img/rueda1.jpg" id="img" class="rounded mx-auto d-block" alt="..."></a>
-                                <h6>U$S 9.85 </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
     </main>
 
 
