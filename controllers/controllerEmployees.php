@@ -1,7 +1,7 @@
 <?php
 include("../models/DB.php");
 
-if (isset($_post["understood"])) {
+if (isset($_post["boton"])) {
     
     $firstName=$_post["first name"];
     $lastName = $_post["last name"];
@@ -10,10 +10,6 @@ if (isset($_post["understood"])) {
     $comments = $_post["comments"];
 
     echo($firstName." ".$lastName." ".$email." ".$age." ");
-    $dataBase = new $dataBase();
-    $dataBase -> conectWithDB();
-}else{
-    echo ("No deberias estar aca");
 }
 
 ?>
